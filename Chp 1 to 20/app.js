@@ -274,11 +274,46 @@ var maxAge = 60;
 var est = 2;
 var age = maxAge - currAge;
 var total = age * est;
-document.write("<h4>The Lifetime Supply Calculator</h4>" + "Favourite Snack: " + fav + "<br>");
+document.getElementById("ans").innerHTML = "<h4>The Lifetime Supply Calculator</h4>" + "Favourite Snack: " + fav + "<br>";
 document.write("Current Age: " + currAge + "<br>");
 document.write("Estimated Maximum Age: " + maxAge + "<br>");
 document.write("Amount of Snacks per day: " + est + "<br>");
 document.write("You will need " + total  + " super crisp to last you until the ripe old age of " + maxAge);
 
+document.getElementById("ch6").innerHTML = "<h1>Chapter 6-9</h1>";
 
+document.getElementById("qc1").innerHTML = "<h3>Question # 1</h3> Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser";
+
+document.getElementById("qc2").innerHTML = "<h3>Question # 2</h3> What will be the output in variables a, b & result after execution of the following script: var a = 2, b = 1; var result = --a - --b + ++b + b--; Explain the output at each stage: --a; --a - --b; --a - --b + ++b; --a - --b + ++b + b--";
+
+document.getElementById("qc3").innerHTML = "<h3>Question # 3</h3> Write a program that takes input a name from user & greet the user.";
+
+document.getElementById("qc4").innerHTML = "<h3>Question # 5</h3> Write a program to take input a number from user & display it’s multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.";
+
+document.getElementById("qc5").innerHTML = "<h3>Question # 6</h3> Take a) Take three subjects name from user and store them in 3 different variables. b) Total marks for each subject is 100, store it in another variable. c) Take obtained marks for first subject from user and stored it in different variable.";
+
+
+document.getElementById("ch9").innerHTML = "<h1>Chapter 9-11</h1>";
+
+document.getElementById("cq1").innerHTML = "<h3>Question # 1</h3> Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights”";
+
+document.getElementById("cq2").innerHTML = "<h3>Question # 2</h3> Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.";
+
+document.getElementById("cq3").innerHTML = "<h3>Question # 3</h3> Write a program to take input color of road traffic signal from the user & show the message according to this table";
+
+document.getElementById("cq4").innerHTML = "<h3>Question # 4</h3> Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car";
+
+document.getElementById("cq5").innerHTML = "<h3>Question # 5</h3> Run this script, & check whether alert message would be displayed or not. Record the outputs.";
+
+document.getElementById("cq6").innerHTML = "<h3>Question # 6</h3> Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table";
+
+document.getElementById("cq7").innerHTML = "<h3>Question # 7</h3> Guess game: Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number. a. If user guesses the same number, show “Bingo! Correct answer”. b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.";
+
+document.getElementById("cq8").innerHTML = "<h3>Question # 8</h3> Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.";
+
+document.getElementById("cq9").innerHTML = "<h3>Question # 9</h3> Write a program that checks whether the given input is an even number or an odd number.";
+
+document.getElementById("cq10").innerHTML = "<h3>Question # 10</h3> Write a program that takes temperature as input and shows a message based on following criteria a. T > 40 then “It is too hot outside.” b. T > 30 then “The Weather today is Normal.” c. T > 20 then “Today’s Weather is cool.” d. T > 10 then “OMG! Today’s weather is so Cool.”";
+
+document.getElementById("cq11").innerHTML = "<h3>Question # 11</h3> Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input: a. First number b. Second number c. Operation (+, -, *, /, %)";
 

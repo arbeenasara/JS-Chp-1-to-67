@@ -283,12 +283,74 @@ document.getElementById("q12").innerHTML = "<h3>Question # 12</h3> The Lifetime 
 document.getElementById("ch6").innerHTML = "<h1>Chapter 6-9</h1>";
 
 document.getElementById("qc1").innerHTML = "<h3>Question # 1</h3> Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser";
+// var a = +prompt("Enter a number");
+
+// document.write("Result" + "<br/>");
+// document.write("The value of a is: " + a + "<br/>");
+// document.write("..............................................." + "<br>");
+// document.write("<br>");
+
+// Pre-Increment
+// document.write("The value of ++a is: " + ++a + "<br>");
+// document.write("Now the value of a is: " + a + "<br>");
+// document.write("<br>");
+
+// Post- Increment
+// document.write("The value of a++ is: " + a++ + "<br>");
+// document.write("Now the value of a is: " + a + "<br>")
+// document.write("<br>");
+
+// Pre-Decrement
+// document.write("The value of --a is: " + --a + "<br>");
+// document.write("Now the value of a is: " + a + "<br>");
+// document.write("<br>");
+
+// Post-Decrement
+// document.write("The value of a-- is: " + a-- + "<br>");
+// document.write("Now the value of a is: " + a + "<br>");
 
 document.getElementById("qc2").innerHTML = "<h3>Question # 2</h3> What will be the output in variables a, b & result after execution of the following script: var a = 2, b = 1; var result = --a - --b + ++b + b--; Explain the output at each stage: --a; --a - --b; --a - --b + ++b; --a - --b + ++b + b--";
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--;
+
+// document.write("The value of a is " + a + "<br>");
+// document.write("The value of b is " + b + "<br>");
+// document.write("The result is " + result + "<br>" + "<br>");
+
+// document.write("<b>" + "Explanation of Solution" + "</b>" + "<br>");
+// document.write("a = 2, b = 1" + "<br>");
+// document.write("--a  -  --b  +  ++b  +  b--" + "<br>");
+// document.write("--a" + "<br>");
+// document.write("  1" + "<br>");
+// document.write("--a  -  --b" + "<br>");
+// document.write("  1  -   0 " + "<br>");
+// document.write("--a  -  --b  +  ++b" + "<br>");
+// document.write("  1  -   0   +    1 " + "<br>");
+// document.write("--a  -  --b  +  ++b   +  b--" + "<br>");
+// document.write("  1  -   0   +    1   +   1" + "<br>");
+// document.write("  1 +    1   +    1 " + "<br>");
+// document.write("3" + "<br>");
+
 
 document.getElementById("qc3").innerHTML = "<h3>Question # 3</h3> Write a program that takes input a name from user & greet the user.";
+// var i = prompt("Enter your name");
+// document.write("Hello " + i + "! " + "How are you?");
 
 document.getElementById("qc4").innerHTML = "<h3>Question # 5</h3> Write a program to take input a number from user & display it’s multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.";
+var a = 5, x = 0;
+var a = +prompt("Enter table number");
+document.write("<b> Table </b>" + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
+document.write(a + " x " + ++x + " = " + (a * x));
 
 document.getElementById("qc5").innerHTML = "<h3>Question # 6</h3> Take a) Take three subjects name from user and store them in 3 different variables. b) Total marks for each subject is 100, store it in another variable. c) Take obtained marks for first subject from user and stored it in different variable.";
 

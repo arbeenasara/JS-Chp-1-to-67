@@ -268,17 +268,17 @@ document.getElementById("q11").innerHTML = "<h3>Question # 11</h3> The Age Calcu
 
 
 document.getElementById("q12").innerHTML = "<h3>Question # 12</h3> The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more. a. Store your favorite snack into a variable b. Store your current age into a variable. c. Store a maximum age into a variable. d. Store an estimated amount per day (as a number). e. Calculate how many would you eat total for the rest of your life.";
-var fav = "Super Crisp";
-var currAge = 21;
-var maxAge = 60;
-var est = 2;
-var age = maxAge - currAge;
-var total = age * est;
-document.getElementById("ans").innerHTML = "<h4>The Lifetime Supply Calculator</h4>" + "Favourite Snack: " + fav + "<br>";
-document.write("Current Age: " + currAge + "<br>");
-document.write("Estimated Maximum Age: " + maxAge + "<br>");
-document.write("Amount of Snacks per day: " + est + "<br>");
-document.write("You will need " + total  + " super crisp to last you until the ripe old age of " + maxAge);
+// var fav = "Super Crisp";
+// var currAge = 21;
+// var maxAge = 60;
+// var est = 2;
+// var age = maxAge - currAge;
+// var total = age * est;
+// document.getElementById("ans").innerHTML = "<h4>The Lifetime Supply Calculator</h4>" + "Favourite Snack: " + fav + "<br>";
+// document.write("Current Age: " + currAge + "<br>");
+// document.write("Estimated Maximum Age: " + maxAge + "<br>");
+// document.write("Amount of Snacks per day: " + est + "<br>");
+// document.write("You will need " + total  + " super crisp to last you until the ripe old age of " + maxAge);
 
 document.getElementById("ch6").innerHTML = "<h1>Chapter 6-9</h1>";
 
@@ -317,3 +317,172 @@ document.getElementById("cq10").innerHTML = "<h3>Question # 10</h3> Write a prog
 
 document.getElementById("cq11").innerHTML = "<h3>Question # 11</h3> Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input: a. First number b. Second number c. Operation (+, -, *, /, %)";
 
+
+document.getElementById("ch12").innerHTML = "<h1>Chapter 12-13</h1>";
+
+document.getElementById("l1").innerHTML = "<h3>Question # 1</h3> Write a program that takes a character (number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).";
+
+document.getElementById("l2").innerHTML = "<h3>Question # 2</h3> Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.";
+
+document.getElementById("l3").innerHTML = "<h3>Question # 3</h3> Write a program that takes input a number from user & state whether the number is positive, negative or zero.";
+
+document.getElementById("l4").innerHTML = "<h3>Question # 4</h3> Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise";
+
+document.getElementById("l5").innerHTML = "<h3>Question # 5</h3> Write a program that a. Store correct password in a JS variable. b. Asks user to enter his/her password c. Validate the two passwords: i. Check if user has entered password. If not, then give message “ Please enter your password” ii. Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”. Show “Incorrect password” otherwise.";
+
+document.getElementById("l6").innerHTML = "<h3>Question # 6</h3> This if/else statement does not work. Try to fix it: var greeting; var hour = 13; if (hour < 18) { greeting = 'Good day'; else greeting = 'Good evening'; }";
+
+document.getElementById("l7").innerHTML = "<h3>Question # 7</h3> Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements";
+
+
+document.getElementById("ch14").innerHTML = "<h1>Chapter 14-16</h1>";
+
+document.getElementById("la1").innerHTML = "<h3>Question # 1</h3> Declare an empty array using JS literal notation to store student names in future.";
+
+document.getElementById("la2").innerHTML = "<h3>Question # 2</h3> Declare an empty array using JS object notation to store student names in future.";
+
+document.getElementById("la3").innerHTML = "<h3>Question # 3</h3> Declare and initialize a strings array.";
+
+document.getElementById("la4").innerHTML = "<h3>Question # 4</h3> Declare and initialize a numbers array.";
+
+document.getElementById("la5").innerHTML = "<h3>Question # 5</h3> Declare and initialize a boolean array.";
+
+document.getElementById("la6").innerHTML = "<h3>Question # 6</h3> Declare and initialize a mixed array.";
+
+document.getElementById("la7").innerHTML = "<h3>Question # 7</h3> Declare and Initialize an array and store available education qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD). Show the listed qualifications in your browser like:";
+
+document.getElementById("la8").innerHTML = "<h3>Question # 8</h3> Write a program to store 3 student names in an array.Take another array to store score of these three students. Assume that total marks are 500 for each student, display the scores & percentages of students like:";
+
+document.getElementById("la9").innerHTML = "<h3>Question # 9</h3> Initialize an array with color names. Display the array elements in your browser.";
+
+document.getElementById("la10").innerHTML = "<h3>Question # 10</h3> Write a program to store student scores in an array & sort the array in ascending order using Array’s sort method.";
+
+document.getElementById("la11").innerHTML = "<h3>Question # 11</h3> Write a program to initialize an array with city names. Copy 3 array elements from cities array to selectedCities array.";
+
+document.getElementById("la12").innerHTML = "<h3>Question # 12</h3> Write a program to create a single string from the below mentioned array: var arr = [“This ”, “ is ”, “ my ”, “ cat”]; (Use array’s join method)";
+
+document.getElementById("la13").innerHTML = "<h3>Question # 13</h3> Create a new array. Store values one by one in such a way that you can access the values in the order in which they were stored. (FIFO-First In First Out)";
+
+document.getElementById("la14").innerHTML = "<h3>Question # 14</h3> Create a new array. Store values one by one in such a way that you can access the values in reverse order. (Last In-First Out)";
+
+document.getElementById("la15").innerHTML = "<h3>Question # 15</h3> Write a program to store phone manufacturers (Apple, Samsung, Motorola, Nokia, Sony & Haier) in an array. Display the following dropdown/select menu in your browser using document.write() method:";
+
+
+document.getElementById("ch17").innerHTML = "<h1>Chapter 17-20</h1>";
+
+document.getElementById("laq1").innerHTML = "<h3>Question # 1</h3> Declare and initialize an empty multidimensional array. (Array of arrays)";
+var arr = [];
+
+document.getElementById("laq2").innerHTML = "<h3>Question # 2</h3> Declare and initialize a multidimensional array representing the following matrix:";
+var arr = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]];
+
+document.getElementById("laq3").innerHTML = "<h3>Question # 3</h3> Write a program to print numeric counting from 1 to 10.";
+// for (x = 1; x <= 10; x++) {
+//     document.write(x + "<br>");
+// }
+
+document.getElementById("laq4").innerHTML = "<h3>Question # 4</h3> Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.";
+// var table = +prompt("Enter a number to show its multiplication table");
+// var length = +prompt("Enter length of multiplication table");
+
+// document.write("<h3>" + " Multiplication Table of " + table + "</h3>")
+// document.write("<h3>" + " Length " + length + "</h3>")
+// for (i = 1; i <= length; i++) {
+//         document.write(table + " " + "x" + " " + i + " " + "= " + (i * table) + "<br>");
+// }
+
+document.getElementById("laq5").innerHTML = "<h3>Question # 5</h3> Write a program to print items of the following array using for loop: fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”]";
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// var list = fruits.join("<br>");
+
+// document.write(list);
+
+// document.write("<br>" + "<br>");
+
+// for (i = 0; i <= fruits.length; i++) {
+//         document.write("Element at index " + i + " is " + fruits[i] + "<br>");
+// }
+
+document.getElementById("laq6").innerHTML = "<h3>Question # 6</h3> Generate the following series in your browser. See example output.";
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// document.write("<h3> Counting </h3>");
+
+// for (x = 1; x <= 15; x++) {
+//         document.write(x + "," + " ");
+// }
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// document.write("<h3> Reverse counting </h3>");
+
+// for (x = 10; x >= 1; x--) {
+//         document.write(x + "," + " ");
+// }
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// document.write("<h3> Even </h3>");
+
+// for (x = 0; x <= 20; x = x + 2) {
+//         document.write(x + "," + " ");
+// }
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 
+// document.write("<h3> Odd </h3>");
+
+// for (x = 1; x <= 20; x = x + 2) {
+//         document.write(x + "," + " ");
+// }
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k 
+// document.write("<h3> Series </h3>");
+
+// for (x = 2; x <= 20; x = x + 2) {
+//         document.write(x + "k" + "," + " ");
+// }
+
+
+document.getElementById("laq7").innerHTML = "<h3>Question # 7</h3> You have an array A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] Write a program to enable “search by user input” in an array. After searching, prompt the user whether the given item is found in the list or not. Example:";
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var a = prompt("Welcome to Ideal bakery. What do you want to order sir/ma'am?");
+// var b = 0;
+
+// for (i = 0; i <= items.length; i++) {
+//         if (items[i] == a) {
+//                 b= 1;
+//                 document.write(a + " " + "is available at index" + " " + i + " " + "in our bakery");
+//         }
+// }
+
+// if (b == 0) {
+//         document.write("We are sorry" + " " + a + " " + "is not available in our bakery")
+// }
+
+document.getElementById("laq8").innerHTML = "<h3>Question # 8</h3> Write a program to identify the largest number in the given array. A = [24, 53, 78, 91, 12].";
+// var a = [24, 53, 78, 91, 12];
+// var b = a[0];
+
+// for (i = 0; i < a.length; i++) {
+
+//         if (a[i] > b) {
+
+//                 b = a[i];
+//         }
+// }
+
+// document.write("Array items: " + " " + a + "<br>");
+// document.write("The largest no is: " + " " + b);
+
+document.getElementById("laq9").innerHTML = "<h3>Question # 9</h3> Write a program to identify the smallest number in the given array. A = [24, 53, 78, 91, 12]";
+// var a = [24, 53, 78, 91, 12];
+// var b = a[0];
+
+// for (i = 0; i < a.length; i++) {
+
+//         if (a[i] < b) {
+
+//                 b = a[i];
+//         }
+// }
+
+// document.write("Array items: " + " " + a + "<br>");
+// document.write("The smallest no is: " + " " + b);
+
+document.getElementById("laq10").innerHTML = "<h3>Question # 10</h3> Write a program to print multiples of 5 ranging 1 to 100.";
+// for (x = 5; x <= 100; x = x + 5) {
+//     document.write(x + "," + " ");
+// }

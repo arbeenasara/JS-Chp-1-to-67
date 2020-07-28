@@ -1,5 +1,6 @@
 document.getElementById("demo").innerHTML = "<h1>Chapter 1</h1>";
 
+
 // document.write("<h3>Question # 1</h3> Write a script to greet your website visitor using JS alert box.");
 // window.alert("Hello! Welcome to my website...");
 
@@ -24,7 +25,11 @@ document.getElementById("demo").innerHTML = "<h1>Chapter 1</h1>";
 
 document.getElementById("comment").innerHTML = "answers are in comment";
 
+
+
 document.getElementById("ch2").innerHTML = "<h1>Chapter 2</h1>";
+
+
 document.getElementById("heading").innerHTML = "<h3>Question # 1</h3> Declare a variable called username";
 var userName = "Arbeena";
 document.getElementById("username").innerHTML = userName;
@@ -76,7 +81,10 @@ document.getElementById("heading9").innerHTML = "<h3>Question # 9</h3> Store fol
 // alert(i);
 
 
+
 document.getElementById("ch3").innerHTML = "<h1>Chapter 3</h1>";
+
+
 document.getElementById("qu1").innerHTML = "<h3>Question # 1</h3> Declare a variable called age & assign to it your age. Show your age in an alert box. <br> answers are in comment";
 // var age = 21;
 // alert("I am " + age + " years old");
@@ -100,7 +108,10 @@ var store = quantity + productTitle;
 document.getElementById("store").innerHTML = visitorName + " ordered " + store + "(s) on XYZ Clothing store";
 
 
+
 document.getElementById("ch4").innerHTML = "<h1>Chapter 4</h1>";
+
+
 document.getElementById("que1").innerHTML = "<h3>Question # 1</h3> Declare 3 variables in one statement.";
 var i = 42;
 var a = 23;
@@ -118,7 +129,10 @@ document.getElementById("que3").innerHTML = "<h3>Question # 3</h3> Display this 
 document.getElementById("exercise").innerHTML = "<h4>Rules for naming JS variables</h4> Variable names can only contain numbers, $ and _. For example: $my_1stVariable <br> Variables must begin with a letter, $ or _. For example: $name, _name or name <br> Variable names are case sensitive <br> Variable names should not be JS keywords";
 
 
+
 document.getElementById("ch5").innerHTML = "<h1>Chapter 5</h1>";
+
+
 document.getElementById("q1").innerHTML = "<h3>Question # 1</h3> Write a program that take two numbers & add them in a new variable. Show the result in your browser.";
 var a = 3;
 var b = 5;
@@ -420,7 +434,9 @@ document.getElementById("qc5").innerHTML = "<h3>Question # 6</h3> Take a) Take t
 // document.write("</Table>");
 
 
+
 document.getElementById("ch9").innerHTML = "<h1>Chapter 9-11</h1>";
+
 
 document.getElementById("cq1").innerHTML = "<h3>Question # 1</h3> Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights”";
 // var city = prompt("Enter city name");
@@ -632,57 +648,296 @@ document.getElementById("cq11").innerHTML = "<h3>Question # 11</h3> Write a prog
 // }
 
 
+
 document.getElementById("ch12").innerHTML = "<h1>Chapter 12-13</h1>";
 
+
 document.getElementById("l1").innerHTML = "<h3>Question # 1</h3> Write a program that takes a character (number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).";
+// var char = prompt("Enter anything in uppercase, lowercase or number");
+// char.charCodeAt(0);
+
+// if (char >= 48 && char <= 57) {
+//         document.write("The given charecter is a number");
+// }
+// else if (char >= 65 && char <= 97) {
+//         document.write("The given charecter is a uppercase letter");
+// }
+// else if (char >= 97 && char <= 122) {
+//         document.write("The given charecter is a lowercase letter");
+// }
 
 document.getElementById("l2").innerHTML = "<h3>Question # 2</h3> Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.";
+// var a = +prompt("Enter first number");
+// var b = +prompt("Enter second number");
+
+// if (a > b) {
+//         document.write("The largest number is" + " " + a);
+// }
+// else if (b > a) {
+//         document.write("The largest number is" + " " + b);
+// }
+// else if (a == b) {
+//         document.write("Both numbers are equal");
+// }
 
 document.getElementById("l3").innerHTML = "<h3>Question # 3</h3> Write a program that takes input a number from user & state whether the number is positive, negative or zero.";
+// var num = +prompt("Enter any positive or negative integer");
+
+// if (num > 0) {
+//         document.write("The given number is positive");
+// }
+// else if (num < 0) {
+//         document.write("The given number is negative");
+// }
+// else if (num1 === 0) {
+//         document.write("The given number is Zero");
+// }
 
 document.getElementById("l4").innerHTML = "<h3>Question # 4</h3> Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise";
+// var alphabet = +prompt("Enter the alphabet to check it is vowel or not");
+
+// if (alphabet == "a" || alphabet == "e" || alphabet == "i" || alphabet == "o" || alphabet == "o") {
+//         document.write("The given alphabet is vowel");
+// }
+// else {
+//         document.write("The given alphabet is not a vowel");
+// }
 
 document.getElementById("l5").innerHTML = "<h3>Question # 5</h3> Write a program that a. Store correct password in a JS variable. b. Asks user to enter his/her password c. Validate the two passwords: i. Check if user has entered password. If not, then give message “ Please enter your password” ii. Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”. Show “Incorrect password” otherwise.";
+// var i = "12345"
+// var password = prompt("Enter your password");
+
+// if (password == "") {
+//         document.write(" Please enter your password");
+// }
+// else if (password == i) {
+//         document.write("Correct! The password you entered matches the original password");
+// }
+// else {
+//         document.write("Incorrect password");
+// }
 
 document.getElementById("l6").innerHTML = "<h3>Question # 6</h3> This if/else statement does not work. Try to fix it: var greeting; var hour = 13; if (hour < 18) { greeting = 'Good day'; else greeting = 'Good evening'; }";
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//         greeting = "Good day";
+// }
+// else {
+//         greeting = "Good evening";
+// }
 
 document.getElementById("l7").innerHTML = "<h3>Question # 7</h3> Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements";
+// var time = +prompt("Please enter 24 hours clock format time \nlike: 1900 = 7pm.");
+
+// if (time >= 0000 && time < 1200) {
+//         alert("Good Morning!");
+// }
+
+// else if (time >= 1200 && time < 1700) {
+//         alert("Good Afternoon!");
+// }
+
+// else if (time >= 1700 && time < 2100) {
+//         alert("Good Evening!");
+// }
+
+// else if (time >= 2100 && time <= 2359) {
+//         alert("Good Night!");
+// }
+
+// else {
+//         alert("Error!");
+// }
+
 
 
 document.getElementById("ch14").innerHTML = "<h1>Chapter 14-16</h1>";
 
+
 document.getElementById("la1").innerHTML = "<h3>Question # 1</h3> Declare an empty array using JS literal notation to store student names in future.";
+// var cars = [];
 
 document.getElementById("la2").innerHTML = "<h3>Question # 2</h3> Declare an empty array using JS object notation to store student names in future.";
+// var cars = newArray();
 
 document.getElementById("la3").innerHTML = "<h3>Question # 3</h3> Declare and initialize a strings array.";
+// var fruits = ["apple", "mango", "grapes", "orange", "strawberry"];
+// document.write(fruits);
 
 document.getElementById("la4").innerHTML = "<h3>Question # 4</h3> Declare and initialize a numbers array.";
+// var num = [1, 2, 3, 4, 5, 6, 7, 8];
+// document.write(num);
 
 document.getElementById("la5").innerHTML = "<h3>Question # 5</h3> Declare and initialize a boolean array.";
+// var i = [true, false, true, false];
+// document.write(i);
 
 document.getElementById("la6").innerHTML = "<h3>Question # 6</h3> Declare and initialize a mixed array.";
+// var a = ["hi", 1, true];
+// document.write(a);
 
 document.getElementById("la7").innerHTML = "<h3>Question # 7</h3> Declare and Initialize an array and store available education qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD). Show the listed qualifications in your browser like:";
+// var qualification = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "Phd"];
+// var num = 1;
+// var i = 0;
+
+// document.write("<h3>" + "Qualifications" + "<h3>");
+
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
+// document.write(num++ + ")" + " " + qualification[i++] + "<br>");
 
 document.getElementById("la8").innerHTML = "<h3>Question # 8</h3> Write a program to store 3 student names in an array.Take another array to store score of these three students. Assume that total marks are 500 for each student, display the scores & percentages of students like:";
+// var stu = ["arbeena", "majid", "sara"];
+// var marks = [481, 426, 360];
+// var i = 0;
+// var a = 0;
+// var x = 0;
+
+// var totalMarks = 500;
+
+// document.write("Score of" + " " + stu[i++] + " " + "is" + " " + marks[a++] + "." + " " + "Percentage" + " " + ":" + " " + (marks[x++] / totalMarks) * 100 + "%" + "<br>");
+// document.write("Score of" + " " + stu[i++] + " " + "is" + " " + marks[a++] + "." + " " + "Percentage" + " " + ":" + " " + (marks[x++] / totalMarks) * 100 + "%" + "<br>");
+// document.write("Score of" + " " + stu[i++] + " " + "is" + " " + marks[a++] + "." + " " + "Percentage" + " " + ":" + " " + (marks[x++] / totalMarks) * 100 + "%" + "<br>");
 
 document.getElementById("la9").innerHTML = "<h3>Question # 9</h3> Initialize an array with color names. Display the array elements in your browser.";
+// var colors = ["purple", "maroon", "light blue", "tea pink"];
+// document.write(colors + "<br>");
+
+// a. Ask the user what color he/she wants to add to the beginning & add that color to the beginning of the array. 
+// Display the updated array in your browser.
+
+// var addColor = prompt("What color you wants to add to the beginning?");
+// colors.unshift(addColor);
+// document.write("Add color to the beginning: " + " " + colors + "<br>");
+
+
+// b. Ask the user what color he/she wants to add to the end & add that color to the end of the array. 
+// Display the updated array in your browser.
+
+// var addColor = prompt("What color you wants to add to the end?");
+// colors.push(addColor);
+// document.write("Add color to the end: " + " " + colors + "<br>");
+
+
+// c. Add two more color to the beginning of the array. 
+// Display the updated array in your browser.
+
+// var addColor = prompt("What color you wants to add to the beginning?");
+// colors.unshift(addColor);
+
+// var addColor = prompt("Add one more color that you wants to add to the beginning?");
+// colors.unshift(addColor);
+// document.write("Add two more colors to the start: " + " " + colors + "<br>");
+
+
+// d. Delete the first color in the array. 
+// Display the updated array in your browser.
+
+// colors.shift();
+// document.write("Delete color from start: " + " " + colors + "<br>");
+
+
+// e. Delete the last color in the array. 
+// Display the updated array in your browser. 
+
+// colors.pop();
+// document.write("Delete color from start end: " + " " + colors + "<br>");
+
+
+// f. Ask the user at which index he/she wants to add a color & color name. 
+// Then add the color to desired position/index. 
+// Display the updated array in your browser.
+
+// var index = +prompt("Write index number where you want to add color");
+// var addColor = prompt("What color you want to add?");
+
+// colors.splice(index, 0, addColor);
+// document.write("updated array : " + " " + colors + "<br>");
+
+
+// g. Ask the user at which index he/she wants to delete color(s) & how many colors he/she wants to delete. 
+// Then remove the same number of color(s) from user-defined position/index. . Display the updated array in your browser.
+
+// var index = +prompt("Write index number from where you want to delete color.");
+// var index2 = +prompt("How many colors you want to delete?");
+// colors.splice(index, index2);
+// document.write("updated array : " + " " + colors + "<br>");
+
 
 document.getElementById("la10").innerHTML = "<h3>Question # 10</h3> Write a program to store student scores in an array & sort the array in ascending order using Array’s sort method.";
+// var arr = [59, 25, 66, 45, 75, 23];
+// document.write("students scores : " + "<br>" + arr + "<br>" + "<br>");
+
+// var sort = arr.sort()
+// document.write("sorted scores : " + "<br>" + sort);
 
 document.getElementById("la11").innerHTML = "<h3>Question # 11</h3> Write a program to initialize an array with city names. Copy 3 array elements from cities array to selectedCities array.";
+// var cities = ["karachi", "lahore", "murre", "islamabad", "hyderabad", "quetta"];
+// document.write("Cities are" + "<br>" + cities + "<br>" + "<br>");
+
+// var selectedCities = cities.slice(1, 4);
+// document.write("Selected cities are" + "<br>" + selectedCities);
+
 
 document.getElementById("la12").innerHTML = "<h3>Question # 12</h3> Write a program to create a single string from the below mentioned array: var arr = [“This ”, “ is ”, “ my ”, “ cat”]; (Use array’s join method)";
+// var arr = ["This", "is", "my", "cat"];
+// document.write("Array" + "<br>" + arr + "<br>" + "<br>");
+
+// var arr1 = arr.join(" ");
+// document.write("String" + "<br>" + arr1);
+
 
 document.getElementById("la13").innerHTML = "<h3>Question # 13</h3> Create a new array. Store values one by one in such a way that you can access the values in the order in which they were stored. (FIFO-First In First Out)";
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// var out;
+// document.write("Devices:" + "<br/>" + devices + "<br/>" + "<br/>");
+
+// out = devices.shift();
+// document.write("Out:" + "<br/>" + out + "<br/>");
+// out = devices.shift();
+// document.write("Out:" + "<br/>" + out + "<br/>");
+// out = devices.shift();
+// document.write("Out:" + "<br/>" + out + "<br/>");
+// out = devices.shift();
+// document.write("Out:" + "<br/>" + out);
 
 document.getElementById("la14").innerHTML = "<h3>Question # 14</h3> Create a new array. Store values one by one in such a way that you can access the values in reverse order. (Last In-First Out)";
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// var out;
+// document.write("Devices:" + "<br/>" + devices + "<br/>" + "<br/>");
+
+// out = devices.pop();
+// document.write("Out:" + "<br/>" + out + "<br/>");
+// out = devices.pop();
+// document.write("Out:" + "<br/>" + out + "<br/>");
+// out = devices.pop();
+// document.write("Out:" + "<br/>" + out + "<br/>");
+// out = devices.pop();
+// document.write("Out:" + "<br/>" + out);
 
 document.getElementById("la15").innerHTML = "<h3>Question # 15</h3> Write a program to store phone manufacturers (Apple, Samsung, Motorola, Nokia, Sony & Haier) in an array. Display the following dropdown/select menu in your browser using document.write() method:";
+// var phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// var i = 0;
+
+// document.write("<select>");
+// document.write("<option>" + phone[i++] + "</option>");
+// document.write("<option>" + phone[i++] + "</option>");
+// document.write("<option>" + phone[i++] + "</option>");
+// document.write("<option>" + phone[i++] + "</option>");
+// document.write("<option>" + phone[i++] + "</option>");
+// document.write("</select>");
+
 
 
 document.getElementById("ch17").innerHTML = "<h1>Chapter 17-20</h1>";
+
 
 document.getElementById("laq1").innerHTML = "<h3>Question # 1</h3> Declare and initialize an empty multidimensional array. (Array of arrays)";
 var arr = [];

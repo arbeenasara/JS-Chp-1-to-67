@@ -106,7 +106,7 @@ function index(str, chr) {
     }
 
     if (flag == 0) {
-        document.write("letter not found")
+        document.write("letter not found");
     }
 }
 
@@ -196,12 +196,12 @@ function overTime(time) {
     if (hour > 40) {
         var extraHour = hour - 40;
         var extraPay = extraHour * 12;
-        document.write("The over time pay of " + extraHour + " will be " + extraPay)
+        document.write("The over time pay of " + extraHour + " will be " + extraPay);
     }
 }
 
-var time = +prompt("Enter working hours")
-overTime(time)
+var time = +prompt("Enter working hours");
+overTime(time);
 
 
 document.write("<br>" + "<br>");
@@ -350,14 +350,14 @@ for (i = 0; i < render.length; i++) {
 
 //iv. Fill input value whose element id first-name using javascript. 
 var fName = document.getElementById("first-name");
-fName.value = "khansa";
+fName.value = "Arbeena";
 
 //v. Repeat part iv for id ”last-name” and “email”.
 var lName = document.getElementById("last-name");
-lName.value = "siraj";
+lName.value = "Altaf";
 
 var email = document.getElementById("email");
-email.value = "khansasiraj@yahoo.com";
+email.value = "arbeena27memon@gmail.com";
 
 // ------------TASK O2 ----------------
 

@@ -353,31 +353,283 @@ document.write(a + " x " + ++x + " = " + (a * x) + "<br>");
 document.write(a + " x " + ++x + " = " + (a * x));
 
 document.getElementById("qc5").innerHTML = "<h3>Question # 6</h3> Take a) Take three subjects name from user and store them in 3 different variables. b) Total marks for each subject is 100, store it in another variable. c) Take obtained marks for first subject from user and stored it in different variable.";
+// document.write("<h2> Marksheet </h2>");
+
+// a) Take three subjects name from user and store them in 3 different variables. 
+// subject1 = prompt("Enter name of subject 1: ");
+// subject2 = prompt("Enter name of subject 2: ");
+// subject3 = prompt("Enter name of subject 3: ");
+
+// b) Total marks for each subject is 100, store it in another variable.
+// var totalMarks = 300;
+
+// c) Take obtained marks for first subject from user and stored it in different variable.
+// subject1Marks = +prompt("Enter marks of " + subject1);
+
+// d) Take obtained marks for remaining 2 subjects from user and store them in variables.
+// subject2Marks = +prompt("Enter marks of " + subject2);
+// subject3Marks = +prompt("Enter marks of " + subject3);
+
+// e) Now calculate total marks and percentage and show the result in browser like this.(Hint: user table)
+// var percentage1 = (subject1Marks / 100) * 100;
+// var percentage2 = (subject2Marks / 100) * 100;
+// var percentage3 = (subject3Marks / 100) * 100;
+
+// var obtainedMarks = (subject1Marks + subject2Marks + subject3Marks);
+// var percentage = (obtainedMarks / totalMarks) * 100;
+// percentage = percentage.toFixed(3);
+
+
+// document.write("<Table>");
+
+// document.write("<tr>");
+// document.write("<th> Subject </th>");
+// document.write("<th> Total Marks </th>");
+// document.write("<th> Obtained Marks </th>");
+// document.write("<th> Percentage </th>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>" + subject1 + "</td>");
+// document.write("<td>" + 100 + "</td>");
+// document.write("<td>" + subject1Marks + "</td>");
+// document.write("<td>" + percentage1 + "%" + "</td>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>" + subject2 + "</td>");
+// document.write("<td>" + 100 + "</td>");
+// document.write("<td>" + subject2Marks + "</td>");
+// document.write("<td>" + percentage2 + "%" + "</td>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>" + subject3 + "</td>");
+// document.write("<td>" + 100 + "</td>");
+// document.write("<td>" + subject3Marks + "</td>");
+// document.write("<td>" + percentage3 + "%" + "</td>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<th>" + "</th>");
+// document.write("<th>" + totalMarks + "</th>");
+// document.write("<th>" + obtainedMarks + "</th>");
+// document.write("<th>" + percentage + "%" + "</th>");
+// document.write("</tr>");
+
+// document.write("</Table>");
 
 
 document.getElementById("ch9").innerHTML = "<h1>Chapter 9-11</h1>";
 
 document.getElementById("cq1").innerHTML = "<h3>Question # 1</h3> Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights”";
+// var city = prompt("Enter city name");
+
+// if (city == "karachi") {
+//         alert("Welcome to  the city of lights");
+// }
 
 document.getElementById("cq2").innerHTML = "<h3>Question # 2</h3> Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.";
+// var gender = prompt("Please enter your gender!");
+
+// if (gender == "male") {
+//         document.write("Good Morning Sir.");
+// }
+// else if (gender == "female") {
+//         document.write("Good Morning Ma’am.");
+// }
+// else {
+//         document.write("Good Morning.");
+// }
 
 document.getElementById("cq3").innerHTML = "<h3>Question # 3</h3> Write a program to take input color of road traffic signal from the user & show the message according to this table";
+// var color = prompt("Enter color of road traffic signal");
+
+// if (color === "Red") {
+//         alert("Must Stop!");
+// }
+// else if (color === "Yellow") {
+//         alert("Ready to Move!");
+// }
+// else if (color === "Green") {
+//         alert("Move Now!");
+// }
+// else {
+//         alert("Error! You had entered wrong color.");
+// }
+
 
 document.getElementById("cq4").innerHTML = "<h3>Question # 4</h3> Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car";
+// var fuel = +prompt("Enter amount of remaining fuel in car (in litres)");
+// if (fuel < 0.25) {
+//         document.write("Please refill the fuel in your car!");
+// }
 
 document.getElementById("cq5").innerHTML = "<h3>Question # 5</h3> Run this script, & check whether alert message would be displayed or not. Record the outputs.";
+// Part A
+// var a = 4;
+// if (++a === 5) {
+//         alert("Given condition for variable a is true");
+// }
+
+// Part B
+// var b = 82;
+// if (b++ === 83) {
+//         alert("Given condition for variable b is true");
+// }
+
+// Part C
+// var c = 12;
+// if (c++ === 13) {
+//         alert("condition 1 is true");
+// }
+
+// if (c === 13) {
+//         alert("condition 2 is true");
+// }
+
+// if (++c < 14) {
+//         alert("condition 3 is true");
+// }
+
+// if (c === 14) {
+//         alert("condition 4 is true");
+// }
+
+// Part D
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//         alert("The cost equals");
+// }
+
+// Part E
+// if (true) {
+//         alert("True");
+// }
+
+// if (false) {
+//         alert("False");
+// }
+
+// Part F
+// if ("car" < "cat") {
+//         alert("Car is smaller than cat");
+// }
+
 
 document.getElementById("cq6").innerHTML = "<h3>Question # 6</h3> Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table";
+// var obtainedMarks = +prompt("Enter Obtained Marks of three subjects: ");
+// var totalMarks = +prompt("Enter total Marks: ");
+// var percentage = (obtainedMarks / totalMarks) * 100;
+
+// document.write("<h3>" + "Mark Sheet" + "<h3>");
+// document.write("Total Marks: " + totalMarks + "</br>");
+// document.write("Marks Obtained: " + obtainedMarks + "</br>");
+// document.write("Percentage: " + percentage + "</br>");
+
+// if (percentage >= 80 && percentage < 100) {
+//         document.write("Grade: A-one" + "<br>");
+//         document.write("Remarks: Excellent" + "<br>");
+// }
+
+// else if (percentage >= 70 && percentage < 80) {
+//         document.write("Grade: A" + "<br>");
+//         document.write("Remarks: Good" + "<br>");
+// }
+
+// else if (percentage >= 60 && percentage < 70) {
+//         document.write("Grade: B" + "<br>");
+//         document.write("Remarks: You need to improve" + "<br>");
+// }
+
+// else if (percentage < 60) {
+//         document.write("Grade: Fail" + "<br>");
+//         document.write("Remarks: Sorry" + "<br>");
+// }
+
+// else {
+//         document.write("Error!" + "<br>");
+// }
 
 document.getElementById("cq7").innerHTML = "<h3>Question # 7</h3> Guess game: Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number. a. If user guesses the same number, show “Bingo! Correct answer”. b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.";
+// var secretNum = 8;
+// var guessNum = +prompt("Guess the secret number ranging from 1 to 10 ");
+
+// if (guessNum == secretNum) {
+//         document.write("Bingo! Correct answer");
+// }
+// else if (guessNum == ++secretNum) {
+//         document.write("Close enough to the correct answer");
+// }
+// else {
+//         document.write("Your guess is incorrect");
+// }
 
 document.getElementById("cq8").innerHTML = "<h3>Question # 8</h3> Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.";
+// var num = +prompt("Enter any number");
+// if ((num % 3) === 0) {
+//         alert("The number is divisible by 3");
+// }
+// else {
+//         alert("The number is not divisible by 3");
+// }
 
 document.getElementById("cq9").innerHTML = "<h3>Question # 9</h3> Write a program that checks whether the given input is an even number or an odd number.";
+// var num = +prompt("Enter any even or odd number");
+// if ((num % 2) === 0) {
+//         document.write("the number is even");
+// }
+// else {
+//         document.write("the number is add");
+// }
 
 document.getElementById("cq10").innerHTML = "<h3>Question # 10</h3> Write a program that takes temperature as input and shows a message based on following criteria a. T > 40 then “It is too hot outside.” b. T > 30 then “The Weather today is Normal.” c. T > 20 then “Today’s Weather is cool.” d. T > 10 then “OMG! Today’s weather is so Cool.”";
+// var temp = +prompt("Enter  the temperature");
+// if (temp > 40) {
+//         document.write("It is too hot outside.");
+// }
+// if (temp > 30) {
+//         document.write("The Weather today is Normal.");
+// }
+// if (temp > 20) {
+//         document.write("Today’s Weather is cool.");
+// }
+// if (temp > 10) {
+//         document.write("OMG! Today’s weather is so Cool.");
+// }
+
 
 document.getElementById("cq11").innerHTML = "<h3>Question # 11</h3> Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input: a. First number b. Second number c. Operation (+, -, *, /, %)";
+// var a = +prompt("Enter First Number");
+// var b = +prompt("Enter Second Number");
+// var operation = ("Enter opertion you want to perform", "+, -, *, /, %");
+// var result;
+
+// if (operation == "+") {
+//         result = a + b;
+//         document.write("The sum of" + " " + a + " " + "and" + " " + b + " " + "is:" + " " + result);
+// }
+// else if (operation == "-") {
+//         result = a - b;
+//         document.write("The subtraction of" + " " + a + " " + "and" + " " + b + " " + "is:" + " " + result);
+// }
+// else if (operation == "*") {
+//         result = a * b;
+//         document.write("The multiplication of" + " " + a + " " + "and" + " " + b + " " + "is:" + " " + result);
+// }
+// else if (operation == "/") {
+//         result = a / b;
+//         document.write("The division of" + " " + a + " " + "and" + " " + b + " " + "is:" + " " + result);
+// }
+// else if (operation == "%") {
+//         result = a % b;
+//         document.write("The reminder of" + " " + a + " " + "and" + " " + b + " " + "is:" + " " + result);
+// }
+// else {
+//         document.write("You enter wrong operation");
+// }
 
 
 document.getElementById("ch12").innerHTML = "<h1>Chapter 12-13</h1>";

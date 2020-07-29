@@ -4,22 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Chp 38-67</title>
+
+    <style>
+        #demo
+        {
+           color: rgb(25, 162, 216);
+           text-decoration: underline;
+        }
+
+        .ch2
+        {
+            color: rgb(248, 121, 142);
+            text-decoration: underline;
+        }
+
+        .ch3
+        {
+            color: rgb(92, 175, 120);
+            text-decoration: underline;
+        }
+
+        .ch4
+        {
+            color: rgb(194, 26, 54);
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <p id="demo"></p>
 
-    <!-- ---------------------------------  Chapter_43 to 48 (EVENTS) ----------------------------------- -->
-    <!-- 1. Show an alert box on click on a link.  -->
+    <p id="q1"></p>
+
+    <p id="q2"></p>
+
+    <p id="q3"></p>
+
+    <p id="q4"></p>
+
+    <p id="q5"></p>
+
+    <p id="q6"></p>
+
+    <p id="q7"></p>
+
+    <p id="q8"></p>
+
+    <p id="q9"></p>
+
+    <p id="q10"></p>
+
+    <h1 class="ch2">Chapter 43-48</h1>
+
+    <h3>Question # 1</h3> 
+    <p> Show an alert box on click on a link.</p> 
     <a href="#" onclick="clickAlert()">Click Me</a>
 
     <br>
 
-    <!-- 2. Display some Mobile images in browser. On click on an image Show the message in alert to user.  -->
+    
+    <h3>Question # 2</h3> 
+    <p> Display some Mobile images in browser. On click on an image Show the message in alert to user. </p>
     <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
         onclick="showAlert()" width="50px" height="50px">
 
 
-    <!-- 3. Display 10 student records in table and each row should contain a delete button. 
-If you click on a button to delete a record, entire row should be deleted. -->
+    <h3>Question # 3</h3> 
+    <p> Display 10 student records in table and each row should contain a delete button. If you click on a button to delete a record, entire row should be deleted.</p>
     <table id="data">
         <tr>
             <th>Index</th>
@@ -29,7 +80,7 @@ If you click on a button to delete a record, entire row should be deleted. -->
 
         <tr>
             <td>0</td>
-            <td>Jhone</td>
+            <td>John</td>
             <td>10</td>
             <td><button onclick="deleteData(this)">Delete</button></td>
 
@@ -58,15 +109,17 @@ If you click on a button to delete a record, entire row should be deleted. -->
     </table>
 
 
-    <!-- 4. Display an image in browser. Change the picture on mouseover and set the first picture on mouseout.  -->
+
+    <h3>Question # 4</h3> 
+    <p> Display an image in browser. Change the picture on mouseover and set the first picture on mouseout.</p> 
     <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
         onmouseover="src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaRlG9Bs0y20BG0PxUF5Lt3KW3c0hkdk_6-w&usqp=CAU'"
         onmouseout="src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg'" width="100px"
         height="100px">
 
 
-    <!-- 5. Show a counter in browser. Counter should increase on click on increase button and decrease on click on decrease button. 
-And show updated counter value in browser.  -->
+    <h3>Question # 5</h3> 
+    <p> Show a counter in browser. Counter should increase on click on increase button and decrease on click on decrease button. And show updated counter value in browser. </p>
 
     <table>
         <tr>
@@ -77,15 +130,16 @@ And show updated counter value in browser.  -->
         </tr>
 
     </table>
-    <!-- ----------------------------------------  Chapter_43 to 48 End ----------------------------------------- -->
+    
 
 
 
 
+    <h1 class="ch3">Chapter 49-52</h1>
 
-    <!-- ---------------------------------  Chapter_49 to 52 (EVENTS) ----------------------------------- -->
 
-    <!-- 1. Create a signup form and display form data in your web page on submission.  -->
+    <h3>Question # 1</h3> 
+    <p> Create a signup form and display form data in your web page on submission. </p>
     <form action="">
         <label>Name</label>
         <input type="text" name="" id="name"> <br> <br>
@@ -106,26 +160,20 @@ And show updated counter value in browser.  -->
     </form>
 
 
-    <!-- 2. Suppose in your webpage there is content area in which you have entered your item details, but user can only see some details on first look.
-     When user clicks on “Read more” button, full detail of that particular item will be displayed.  -->
+    <h3>Question # 2</h3> 
+    <p>Suppose in your webpage there is content area in which you have entered your item details, but user can only see some details on first look. When user clicks on “Read more” button, full detail of that particular item will be displayed. </p>
     <p id="before">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        <a href="javascript:void(0);" style="color: red;" onclick="readMore()">Read More</a>
+        <a href="javascript:void(0);" style="color: purple;" onclick="readMore()">Read More</a>
     </p>
-    <!-- ----------------------------------------  Chapter_49 to 52 End ----------------------------------------- -->
 
 
 
 
 
-    <!-- ---------------------------------  Chapter_53 to 57 (DOM) ----------------------------------- -->
+    <h1 class="ch4">Chapter 58-67</h1>
 
-    <!-- ----------------------------------------  Chapter_53 to 57 End ----------------------------------------- -->
-
-
-
-
-
-    <!-- ---------------------------------  Chapter_58 to 67 (DOM) ----------------------------------- -->
+    <h3>Question # 01</h3>
+    <p>Consider you have following code snippet:</p>
     <div>
         <h1> DOM </h1>
         <div id="form-content" class="content">
@@ -145,7 +193,6 @@ And show updated counter value in browser.  -->
         </div>
     </div>
 
-    <b>output</b>
    
     
 
